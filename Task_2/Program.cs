@@ -7,15 +7,15 @@ int max = 0;
 Random r = new Random();
 for (int count = 0; count < n; count++)
 {
-//array[count] = r.Next(-100, 101); // Две строчки для рандомного заполнения числами
-//Console.Write($"{array[count]} ");
-Console.Write($"Введите {count+1} число "); //Вместо ввода вручную чисел 3 строчки(с12 по14) можно 
-int FirstNumber = Convert.ToInt16(Console.ReadLine()); // использовать 10-11 строки
-array[count] = FirstNumber;
+    //array[count] = r.Next(-100, 101); // Две строчки для рандомного заполнения числами
+    //Console.Write($"{array[count]} ");
+    Console.Write($"Введите {count + 1} число "); //Вместо ввода вручную чисел 3 строчки(с12 по14) можно 
+    int FirstNumber = Convert.ToInt16(Console.ReadLine()); // использовать 10-11 строки
+    array[count] = FirstNumber;
 }
-for(int count = 0; count < n; count++ )
+for (int count = 0; count < n; count++)
 {
     if (max < array[count])
-    max = array[count];
+        max = array[count];
 }
 Console.WriteLine($"\n max = {max}");
