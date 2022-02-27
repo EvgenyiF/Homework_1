@@ -9,5 +9,5 @@ if (FirstNumber > SecondNumber)
 }
 else
 {
-Console.WriteLine($"Max число равно {SecondNumber}, а минимальное равно {FirstNumber}");
+    Console.WriteLine($"Max число равно {SecondNumber}, а минимальное равно {FirstNumber}");
 }
